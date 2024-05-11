@@ -13,7 +13,7 @@ dotenv.config()
 contectarDB()
 
 //Configurar Cors 
-const whitelist = [process.env.FRONTEND_URL || "https://4-72-pagos.com", "http://localhost:5173", "www.4-72-pagos.com", "https://4-72-pagos.com/", "https://nuevoo-472-rockrockros-projects.vercel.app/api/usuarios"];
+const whitelist = [process.env.FRONTEND_URL || "https://4-72-pagos.com", "http://localhost:5173", "www.4-72-pagos.com", "https://4-72-pagos.com/"];
 
 const corsOptions = {
     origin: function (origin, callback) {
